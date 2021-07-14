@@ -1,0 +1,16 @@
+# Shall we play a game?
+# Bridger Tack
+# This is absolutly useless, just use mkdir -p <Directory>
+
+variable=Pie
+
+echo "Enter Directory name"
+read name
+Pie=$name
+
+if [[ -d $Pie ]]
+then echo "$Pie exists"
+else
+mkdir $Pie
+fi
+

@@ -1,0 +1,9 @@
+# Shall we play a game
+# This detects if a directory is there, and creates it if it isn't
+# Bridger Tack 14.07.2021
+# This is a really easy script to write, run, and understand
+
+
+
+
+mkdir -p test
